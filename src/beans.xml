@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!--用户模块  -->
+	<bean  name="UserService" className="cn.myfreecloud.store.service.impl.UserServiceImpl"  />
+	<bean  name="UserDao" className="cn.myfreecloud.store.dao.impl.UserDaoImpl"  />
+	
+	<!--分类模块  -->
+	<!-- 写接口的名字 -->
+	<bean  name="CategoryService" className="cn.myfreecloud.store.service.impl.CategoryServiceImpl"  />
+	<bean  name="CategoryDao" className="cn.myfreecloud.store.dao.impl.CategoryDaoImpl"  />
+	<!--商品模块  -->
+	<bean  name="ProductService" className="cn.myfreecloud.store.service.impl.ProductServiceImpl"  />
+	<bean  name="ProductDao" className="cn.myfreecloud.store.dao.impl.ProductDaoImpl"  />
+	
+	<!--订单模块  -->
+	<bean  name="OrderService" className="cn.myfreecloud.store.service.impl.OrderServiceImpl"  />
+	<bean  name="OrderDao" className="cn.myfreecloud.store.dao.impl.OrderDaoImpl"  />
+
+</beans>
